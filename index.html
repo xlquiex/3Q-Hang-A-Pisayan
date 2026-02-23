@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hang A Pisayan!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="logo">Play the game!</div>
+        <a href="index.html" class="btn">Home</a>
+    </nav>
+
+
+    
+<body onload="playHangman()">
+
+    <div id="gameContainer">
+        <div id="revealedLetters"></div>
+
+        <div id="lives">
+            Lives: <span id="playerLives"></span>
+        </div>
+    </div>
+
+     <div id="keyBoard">
+        <h1>
+            <button onclick="keyBoardLetter('Q', this)">Q</button>
+            <button onclick="keyBoardLetter('W', this)">W</button>
+            <button onclick="keyBoardLetter('E', this)">E</button>
+            <button onclick="keyBoardLetter('R', this)">R</button>
+            <button onclick="keyBoardLetter('T', this)">T</button>
+            <button onclick="keyBoardLetter('Y', this)">Y</button>
+            <button onclick="keyBoardLetter('U', this)">U</button>
+            <button onclick="keyBoardLetter('I', this)">I</button>
+            <button onclick="keyBoardLetter('O', this)">O</button>
+            <button onclick="keyBoardLetter('P', this)">P</button>
+            <br>
+            <button onclick="keyBoardLetter('A', this)">A</button>
+            <button onclick="keyBoardLetter('S', this)">S</button>
+            <button onclick="keyBoardLetter('D', this)">D</button>
+            <button onclick="keyBoardLetter('F', this)">F</button>
+            <button onclick="keyBoardLetter('G', this)">G</button>
+            <button onclick="keyBoardLetter('H', this)">H</button>
+            <button onclick="keyBoardLetter('J', this)">J</button>
+            <button onclick="keyBoardLetter('K', this)">K</button>
+            <button onclick="keyBoardLetter('L', this)">L</button>
+            <br>
+            <button onclick="keyBoardLetter('Z', this)">Z</button>
+            <button onclick="keyBoardLetter('X', this)">X</button>
+            <button onclick="keyBoardLetter('C', this)">C</button>
+            <button onclick="keyBoardLetter('V', this)">V</button>
+            <button onclick="keyBoardLetter('B', this)">B</button>
+            <button onclick="keyBoardLetter('N', this)">N</button>
+            <button onclick="keyBoardLetter('M', this)">M</button>
+        </h1>
+     </div>
+
+     <script src="script.js"></script>
+
+    <audio controls autoplay loop>
+        <source src="Hazelwood - At Ease (freetouse.com).mp3" type = "audio/mp3">
+    </audio>
+    
+
+</header>
+</body>
+</html>
